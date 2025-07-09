@@ -48,8 +48,12 @@
 .section-description{
     font-size: 18px;
     color: #757575;
-    margin-bottom: 30px;
+    margin: 0px 50px 50px;
     line-height: 30px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* header styles */
@@ -134,9 +138,9 @@ main{
 
 .about{
     background-color: #FFF8F3;
-    padding: 80px 100px;
+    padding: 80px 130px;
     border-radius: 10px;
-    margin: 100px 110px;
+    margin: 120px 10px;
     text-align: center;
 }
 
@@ -160,7 +164,7 @@ main{
 /* Skills Styles */
 
 .skills{
-    margin: 100px 80px;
+    margin: 100px 10px;
     text-align: center;
 }
 
@@ -181,10 +185,114 @@ main{
 .skill-title{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .skill-description{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+    margin-bottom: 50px;
+}
+
+/* Resume Styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.experience-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin: 10px 0px 20px 0px;
+
+}
+
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+.resume-download-cv{
+    margin: 50px 0px 100px 0px;
+}
+
+
+/* Footer Styles */
+
+.footer-bg{
+    background-color: #FFF8F3;
+}
+
+.footer-main-div{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.footer-description{
+    font-size: 16px;
+    list-style: 18px;
+    color: #474747;
+    margin: 20px 0 30px 0;
+
+}
+
+.footer-icons a img{
+    margin-right: 24px;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 60%;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 60%;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 20px;
 }
