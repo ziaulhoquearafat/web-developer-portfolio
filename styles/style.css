@@ -38,6 +38,20 @@
     margin-left: 30px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
 /* header styles */
 
 .header{
@@ -111,4 +125,34 @@ nav li a{
 
 .banner-content{
     max-width: 580px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    background-color: #FFF8F3;
+    padding: 100px 120px;
+    border-radius: 10px;
+    margin: 80px 140px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    line-height: 5px;
+}
+
+.item-title{
+    font-size: 18px;
+    color: #757575;
+}
+
+.item-description{
+    font-size: 18px;
+    color: #474747;
+    font-weight: bold;
 }
