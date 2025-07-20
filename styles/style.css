@@ -313,7 +313,10 @@ footer textarea{
     .resume-container, 
     .footer-main-div,
     .about-items,
-    .banner{
+    .banner, 
+    nav, 
+    nav > ul
+    {
         flex-direction: column;
     }
 
@@ -353,12 +356,16 @@ footer textarea{
         background-image: none;
     }
 
-    nav{
-        margin: 0px 25px;
-    }
-
     .banner-profile-pic{
         width: 100%;
+    }
+
+    nav > ul{
+        gap: 20px;
+    }
+
+    .btn-primary{
+        margin-bottom: 20px;
     }
 
 }
