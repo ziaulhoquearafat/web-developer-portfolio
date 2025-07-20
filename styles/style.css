@@ -310,11 +310,39 @@ footer textarea{
         align-items: center;
     }
 
-    .resume-container{
+    .resume-container, 
+    .footer-main-div,
+    .about-items{
         flex-direction: column;
     }
 
     .resume-column{
         padding: 20px;
     }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    .footer-main-div{
+        padding: 70px;
+    }
+
+    footer input[type="text"], footer input[type="email"]{
+        width: 100%;
+    }
+
+    footer textarea{
+        width: 100%;
+    }
+
+    .about{
+        padding: 20px;
+    }
+
+    .section-description{
+        margin: 0px 20px 20px;
+    }
+
+    .about-items
 }
