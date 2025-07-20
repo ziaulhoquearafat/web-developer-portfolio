@@ -312,7 +312,8 @@ footer textarea{
 
     .resume-container, 
     .footer-main-div,
-    .about-items{
+    .about-items,
+    .banner{
         flex-direction: column;
     }
 
@@ -344,5 +345,20 @@ footer textarea{
         margin: 0px 20px 20px;
     }
 
-    .about-items
+    .banner{
+        margin: 20px;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+    nav{
+        margin: 0px 25px;
+    }
+
+    .banner-profile-pic{
+        width: 100%;
+    }
+
 }
